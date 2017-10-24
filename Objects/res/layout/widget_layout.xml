@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="horizontal" android:gravity="center" android:layout_x="0dp" android:layout_y="0dp">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" android:gravity="center" android:layout_gravity="center_vertical">
+      <AbsoluteLayout android:id="@+id/widget_p1" android:layout_width="70dp" android:layout_height="70dp" android:layout_x="0dp" android:layout_y="0dp" android:visibility="visible" android:background="@drawable/widget_p1_background">
+        <ProgressBar indeterminate="true" android:id="@+id/widget_pb1" android:layout_width="70dp" android:layout_height="70dp" android:layout_x="0dp" android:layout_y="0dp" android:visibility="visible" />
+        <Button android:id="@+id/widget_b1" android:layout_width="60dp" android:layout_height="60dp" android:layout_x="5dp" android:layout_y="5dp" android:visibility="visible" android:text="" android:gravity="center_vertical|center_horizontal" android:textSize="8dp" android:textStyle="normal" android:typeface="normal" />
+        <TextView android:id="@+id/widget_l2" android:layout_width="70dp" android:layout_height="50dp" android:layout_x="0dp" android:layout_y="10dp" android:visibility="visible" android:text="" android:gravity="center_vertical|center_horizontal" android:textSize="10dp" android:textStyle="bold" android:typeface="normal" />
+      </AbsoluteLayout>
+    </LinearLayout>
+  </LinearLayout>
+</AbsoluteLayout>
